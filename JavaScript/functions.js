@@ -8,7 +8,7 @@ message("hello");
 
 function sayMessage(message){
     if(arguments.length===0){
-        console.log(message);
+        console.log("Hello");
     }
     console.log(message);
 }
